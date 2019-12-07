@@ -1,0 +1,80 @@
+.Modal {
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    right: 400px;
+    bottom: 150px;
+    background-image:    
+        linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ),
+        url('https://leo.nyc3.digitaloceanspaces.com/swapi-pics/backimg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+  }
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(000, 000, 000, 0.45);
+}
+
+.subtitleMain {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subTitle{
+    margin-top: 100px;
+    color: #cccccc;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#subTitle:hover{
+    text-shadow: 2px 2px 30px #ffffff;
+    color: #ffffff;
+}
+
+.containerList {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.containerLeft,
+.containerRight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.listModal{
+    color: #cccccc;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.listModal span{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.listModal:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}

@@ -1,0 +1,88 @@
+.presentationScreen{
+    width: 100vw;
+    background-color: black;
+    background-image: url('http://www.script-tutorials.com/demos/360/images/stars.png');
+    padding-top: 150px;
+}
+
+.containerGuide{
+    background-image: url('http://www.script-tutorials.com/demos/360/images/stars.png');
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    place-items: center;
+    background-color: black;
+}
+
+.containerGuide a{
+    text-decoration: none;
+}
+
+.boxMainImg{
+    width: 31vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigText{
+    background-color: #000000;
+    background-image: url('http://www.script-tutorials.com/demos/360/images/stars.png');
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigText span{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 6.5rem;
+    text-decoration: underline overline ;
+}
+
+.bigText span:hover{
+    text-shadow: 2px 2px 50px #cccccc;
+}
+
+.imgAll {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.imgAll:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 80px 1px #888888;
+}
+
+.title {
+    font-size: 55px;
+    background: linear-gradient(to right,  red,black, cyan);
+    background-size: 200% 200%;
+    animation: rainbow 4s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(255 ,255,255,1);
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-decoration: underline overline ;
+    transition: 1s;
+}
+
+.title:hover {
+    color: rgba(0,0,0,0);
+}
+
+@keyframes rainbow { 
+0%{background-position:left}
+50%{background-position:right}
+100%{background-position:left}
+}

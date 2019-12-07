@@ -1,0 +1,57 @@
+.navBar {
+    width: 100vw;
+    height: 150px;
+    background-color: #000000;
+    background-image: url('http://www.script-tutorials.com/demos/360/images/stars.png');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+}
+
+.listNav {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.theLink {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+
+.theLink:hover {
+    text-shadow: 1px 1px 20px #ffffff;
+    font-size: 23px;
+  }
+
+.LogoNav > a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    background: linear-gradient(to right,  red,white, cyan);
+    background-size: 200% 200%;
+    animation: rainbow 4s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(255 ,255,255,0);
+    font-weight: 900;
+    transition: 1s;
+}
+
+.mainList{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
