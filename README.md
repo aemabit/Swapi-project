@@ -1,7 +1,6 @@
 # STARWARS PROJECT
 
-![CodeSnippet](./weekendproject/img/code.png)
-![ViewInHtml](./weekendproject/img/view.png)
+![TheForce](./maytheforcestaywithyou.png)
 
 ## Description
 This is my midtern project from Wyncode.
