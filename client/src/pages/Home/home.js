@@ -1,16 +1,19 @@
-import React from 'react'
-import VideoHome from './components/homeVideo'
-import BodyHome from './components/bodyHome';
+import React from "react";
+import VideoHome from "./components/homeVideo";
+import BodyHome from "./components/bodyHome";
 
 class Home extends React.Component {
-  render(){
-    return(
+  render() {
+    return (
       <>
-      <VideoHome /> 
-      <BodyHome />
+        <VideoHome />
+        <BodyHome />
       </>
-    )
+    );
   }
-} 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+}
 
-export default Home
+export default Home;

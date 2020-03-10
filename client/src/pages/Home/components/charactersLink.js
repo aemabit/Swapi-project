@@ -14,7 +14,7 @@ const TheLinks = props => {
           </Animated>
         </div>
       </NavLink>
-      <NavLink exact to="/films">
+      <NavLink exact to="/comingsoon">
       <div className={styles.boxMainImg}>
         <span className={styles.title}>FILMS</span>
         <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
@@ -22,7 +22,7 @@ const TheLinks = props => {
         </Animated>
       </div>
     </NavLink>
-    <NavLink exact to="/starships">
+    <NavLink exact to="/comingsoon">
     <div className={styles.boxMainImg}>
       <span className={styles.title}>STARSHIPS</span>
       <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>

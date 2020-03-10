@@ -28,7 +28,7 @@ class BodyHome extends React.Component {
             charactersLink={this.state.charactersLink}
             starshipsLink={this.state.starshipsLink}
           />
-        </div>
+        </div> 
       </>
     )
    }   

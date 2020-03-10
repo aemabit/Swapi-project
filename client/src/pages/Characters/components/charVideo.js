@@ -5,6 +5,7 @@ import styles from '../character.module.css'
 const VideoChar = () => {
     return(
         <div className={styles.mainChar}>
+            <div className={styles.fixSpace}></div>
         <ReactPlayer
             url='https://leo.nyc3.digitaloceanspaces.com/swapi-pics/i_am_your_father.mp4'
             className={styles.reactPlayer}

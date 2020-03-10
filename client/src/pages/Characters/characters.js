@@ -89,6 +89,7 @@ class People extends React.Component {
 
   componentDidMount() {
     this.fetchStw();
+    window.scrollTo(0, 0)
   }
 
   componentWillMount() {
