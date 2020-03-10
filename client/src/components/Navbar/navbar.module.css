@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 999;
     opacity: 0.9;
-}
+} 
 
 .listNav {
     list-style: none;
@@ -54,4 +54,11 @@
     0%{background-position:left}
     50%{background-position:right}
     100%{background-position:left}
+}
+
+@media (max-width: 580px) {
+    .LogoNav > a {
+        font-size: 30px;
+    }
+
 }
