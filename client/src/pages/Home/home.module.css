@@ -65,7 +65,7 @@
 
 .title {
     font-size: 55px;
-    background: linear-gradient(to right,  red,black, cyan);
+    background: linear-gradient(to right,  rgb(0, 0, 0),rgb(168, 168, 168), cyan);
     background-size: 200% 200%;
     animation: rainbow 4s ease-in-out infinite;
     background-clip: text;
